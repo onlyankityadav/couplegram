@@ -1,0 +1,212 @@
+body {
+  margin: auto;
+  padding: auto;
+  background-image: url(images/wood.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  position: fixed;
+  background-color: burlywood;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: "Pacifico", cursive;
+}
+nav a, input{
+  text-decoration: none;
+  color: #926239;
+  margin-left: 70px;
+  font-size: larger;
+}
+.search input{
+  border: 2px solid #f9f9f9;
+  border-radius: 20px;
+  background-color: burlywood;
+  color: #926239;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+}
+hr {
+margin:40px;
+background-color: #926239;
+
+}
+
+
+
+nav a:hover {
+  color: #926239;
+  background-color: #f9f9f9;
+  cursor: grab;
+  border: #926239;
+  border-radius: 10px;
+}
+#section-a {
+  color: #f9f9f9;
+  background-image: url(images/img5.jpg);
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-variant: small-caps;
+  font-size: 30px;
+  font-family: "Pacifico", cursive;
+  letter-spacing: 3px;
+}
+#section-a .button {
+  margin-top: 5px;
+}
+#section-a h1 span {
+  color: #926239;
+}
+#section-a a {
+  text-decoration: none;
+  color: #f9f9f9;
+  border: 2px solid #926239;
+  padding: 10px 20px;
+  font-size: large;
+  border-radius: 10px;
+}
+#section-a a:hover {
+  border-width: 20px;
+  background-color: #f9f9f9;
+  cursor: grab;
+  color: #926239;
+  opacity: 0.5;
+}
+#Aboutus {
+  display: flex;
+  color: #f9f9f9;
+}
+.intro {
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #926239;
+}
+
+.intro:hover {
+  border: 5px solid rgb(202, 245, 12);
+  background-color: #e78936;
+  color: #f9f9f9;
+}
+.intro h5,
+p {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: medium;
+  margin-bottom: 3px;
+}
+#section-b {
+  display: flex;
+  flex-wrap: wrap;
+}
+#section-b figure img {
+  background-color: cyan;
+  margin-left: 15px;
+  border: 5px solid cyan;
+  border-radius: 30px;
+  width: 220px;
+  height: 200px;
+  margin: 20px;
+}
+#section-b figure img:hover {
+  opacity: 0.8;
+  border: 10px solid rgb(202, 245, 12);
+}
+figure {
+  margin-left: 60px;
+}
+#section-b figure figcaption a {
+  text-decoration: none;
+  color: #926239;
+  background-color: #f9f9f9;
+}
+#section-b figure figcaption {
+  text-align: center;
+  border: 3px solid #f9f9f9;
+  border-radius: 5px;
+  font-size: large;
+  padding: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: #f9f9f9;
+}
+#section-b figure figcaption:hover {
+  color: #f9f9f9;
+  background-color: #926239;
+  cursor: grab;
+}
+h3 {
+  text-align: center;
+  color: #926239;
+  font-size: 20px;
+  background-color: burlywood;
+  text-decoration: underline 2px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#reviews .clients figure {
+  margin-left: 5%;
+  display: inline-flex;
+  flex-direction: column;
+  background-position: fixed;
+  /* background-color: cyan; */
+}
+.clients figure img {
+  margin-left: 15px;
+  border: 2px solid;
+  border-radius: 120px;
+  width: 220px;
+  height: 200px;
+  margin: 10px;
+}
+#reviews figure img:hover {
+  border: 5px solid rgb(202, 245, 12);
+}
+#reviews figure figcaption {
+  color: black;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  color: #926239;
+  background-color: #f9f9f9;
+}
+#reviews figure figcaption:hover {
+  background-color: #926239;
+  color: #f9f9f9;
+  border-color: rgb(202, 245, 12);
+}
+footer {
+  text-align: center;
+}
+footer a img {
+  height: 30px;
+  width: 30px;
+  margin-left: 25px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+footer a img:hover {
+  width:60px;
+  height:60px;
+  border-color: rgb(202, 245, 12);
+}
+footer p {
+  font-size: medium;
+  font-weight: 100;
+  font-family: "Pacifico", cursive;
+  letter-spacing: 5px;
+  color: #f9f9f9;
+}
